@@ -12,7 +12,7 @@ config_version=5
 
 config/name="AnimationProviderDemo"
 run/main_scene="res://joint_display.tscn"
-config/features=PackedStringArray("4.2", "GL Compatibility")
+config/features=PackedStringArray("4.3", "Double Precision", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [rendering]
