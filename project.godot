@@ -15,10 +15,6 @@ run/main_scene="res://demo_openxr.tscn"
 config/features=PackedStringArray("4.3", "Double Precision", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[editor]
-
-run/main_run_args="--xr-mode off"
-
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

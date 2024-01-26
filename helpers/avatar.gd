@@ -1,3 +1,4 @@
+@uid("uid://b6n0mfpns781u") # Generated automatically, do not modify.
 @tool
 extends Node3D
 
@@ -15,6 +16,8 @@ extends Node3D
 func _ready():
 	# Start the IK
 	for ik in start_ik:
+		if ik == null:
+			continue
 		ik.start()
 
 
